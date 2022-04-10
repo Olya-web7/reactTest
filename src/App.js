@@ -1,5 +1,5 @@
 import React from "react";
-import {Route} from 'react-router-dom';
+// import {Switch, Route} from 'react-router-dom';
 import Header from './components/Header';
 import Homepage from "./pages/Homepage";
 import './default.scss';
@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <Header />
       <div className="main">
-        {/* <Route path='/' component={Homepage} /> */}
-        {/* <Route path='/' component={Homepage} /> */}
-
+        {/* <Switch>
+          <Route exact path='/' component={Homepage} />
+          <Route path='/header' component={Header} />
+        </Switch> */}
         <Homepage /> 
       </div>           
     </div>
