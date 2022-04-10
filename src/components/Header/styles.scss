@@ -11,5 +11,14 @@
 .header {
   .item {
     margin: 1rem;
+
+    a {
+      text-decoration: none;
+      color: #1D1F22;
+
+      &:hover {
+        color: #5ECE7B;
+      }
+    }
   }
 }
